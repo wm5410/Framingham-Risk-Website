@@ -1,0 +1,55 @@
+/* Styling of main body  */
+body{
+    background-color: #D6F3FF;
+    font-family: sans-serif;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#navBar{
+    background-color: #2D2E2E;
+    border: 0px;
+    height: auto;
+    width: 100%;
+}
+
+input[type=button], input[type=reset], input[type=submit]{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #BED1DA;
+    color: #0F0F0F;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 500;
+    border: 0px;
+    margin: 20px;
+    letter-spacing: 3px;
+}
+
+input[type=button]:hover{
+    background-color: #9bc0d1;
+}
+input[type=reset]:hover{
+    background-color: #9bc0d1;
+}
+
+#div1{
+    padding: 100px;
+    font-weight: 200;
+}
+
+p{
+    margin: 0px;
+}
+
+/* Styling of footer (not used)  */
+#footer{
+    background-color: #2b2b2b;
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    bottom:0px;
+}
